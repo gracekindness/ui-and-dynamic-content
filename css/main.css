@@ -1,0 +1,71 @@
+* {
+    box-sizing: border-box;
+    padding: 1rem;
+    color: lightgrey;
+}
+
+h1 {
+    text-align: center;
+    color: gray;
+    font-family: 'Josefin Slab', serif;
+}
+
+h2 {
+    text-align: center;
+    color: gray;
+    font-family: 'Raleway', sans-serif;
+    font-size: 0.8em;
+}
+
+ul {
+    list-style: none;
+    font-family: 'Raleway', sans-serif;
+}
+
+ul li {
+    margin-bottom: 0 0 1rem 0;
+}
+
+ul li:last-child {
+    margin-bottom: 0;
+}
+
+ul li a {
+    display: block;
+}
+
+button {
+    width: 100%;
+    color: black;
+    font-family: 'Raleway', sans-serif;
+    font-size: 1em;
+}
+
+footer {
+    text-align: center;
+    font-family: 'Raleway', sans-serif;
+}
+
+.masthead {
+    text-align: center;
+}
+
+footer p {
+    text-align: center;
+    color: darkgrey
+}
+
+footer p.addy {
+    font-size: 0.6em;
+}
+
+/*Class for clicked element*/
+.active {
+    background-color: royalblue;
+    color: white;
+}
+
+/*MOBILE*/
+@media screen and (min-width: 30rem) {
+    
+}
